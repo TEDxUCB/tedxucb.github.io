@@ -13,13 +13,13 @@ description: "Xcent is a Responsive One Page Personal Template for creative peop
 
 
 # The subpath of your site, e.g. /blog, for generating urls
-baseurl: 
+baseurl: /tedxucb
 
 sass:
   sass_dir: _sass
 
 # The base hostname & protocol of your site for where absolute urls are needed
-url: "http://www.yongt9412.com/tedxucb/"
+url: "http://www.yongt9412.com/"
 
 # The shortname for your Disqus site to enable comments.
 disqus:
