@@ -46,17 +46,17 @@ $('.header').sticky({
 
 $('body').scrollspy({
 	target: '.navbar-custom',
-	offset: 0
+	offset: 60
 })
 
 /* ---------------------------------------------- /*
 * Background image.
 /* ---------------------------------------------- */
 
-$(".js-height-full").height($(window).height() + 5);
+$(".js-height-full").height($(window).height() - 60);
 
 $(window).resize(function(){
-	$(".js-height-full").height($(window).height() + 5);
+	$(".js-height-full").height($(window).height() - 60);
 });
 
 if (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) {
