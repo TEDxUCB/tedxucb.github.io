@@ -1,5 +1,14 @@
 .logo--small {
-	height: 20px;
+	height: 30px;
+}
+
+.navbar-brand {
+    height: 60px !important;
+}
+
+.navbar-nav li a {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .partner {
@@ -17,4 +26,8 @@
 
 .navbar-custom {
     background-color: #1a1a1a;
+}
+
+.text-red {
+    color: red;
 }
