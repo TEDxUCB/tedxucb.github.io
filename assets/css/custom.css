@@ -22,3 +22,8 @@
 .text-red {
     color: red !important;
 }
+
+button.navbar-toggle {
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
