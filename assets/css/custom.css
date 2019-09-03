@@ -15,15 +15,6 @@
 	padding: 20px;
 }
 
-.menu--important a {
-	color: white !important;
-	background: #5fd3bc;
-}
-
-.header {
-	top: 0;
-}
-
 .navbar-custom {
     background-color: #1a1a1a;
 }

@@ -40,6 +40,10 @@ $(window).scroll(function() {
 * Navbar
 /* ---------------------------------------------- */
 
+$('.header').sticky({
+	topSpacing: 0
+});
+
 $('body').scrollspy({
 	target: '.navbar-custom',
 	offset: 0
@@ -49,10 +53,10 @@ $('body').scrollspy({
 * Background image.
 /* ---------------------------------------------- */
 
-$(".js-height-full").height($(window).height());
+$(".js-height-full").height($(window).height() + 5);
 
 $(window).resize(function(){
-	$(".js-height-full").height($(window).height());
+	$(".js-height-full").height($(window).height() + 5);
 });
 
 if (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) {
@@ -122,12 +126,5 @@ if($('.youtube-bg').length == 1) {
 	$(".youtube-bg").mb_YTPlayer();
 }
 
-/* ---------------------------------------------- /*
-* Collapse menu when selecting an option
-/* ---------------------------------------------- */
-
-$('.navbar-collapse a').click(function(){
-    $(".navbar-collapse").collapse('hide');
-});
 
 })(jQuery);
