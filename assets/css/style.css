@@ -708,9 +708,10 @@ textarea.form-control {
 }
 
 .header {
-	position: relative;
+	position: fixed;
 	width: 100%;
 	z-index: 998;
+	box-shadow: 0 6px 30px rgba(0,0,0,0.05);
 }
 
 .navbar-custom {
