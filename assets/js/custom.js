@@ -44,11 +44,6 @@ $('.header').sticky({
 	topSpacing: 0
 });
 
-$('body').scrollspy({
-	target: '.navbar-custom',
-	offset: 0
-})
-
 /* ---------------------------------------------- /*
 * Background image.
 /* ---------------------------------------------- */
