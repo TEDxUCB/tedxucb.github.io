@@ -20,11 +20,18 @@ layout: default
 
 		<ul class="list-items-container blog-wrapper">
 
+			<li class="list-item">
+				<p>
+						El comité organizador principal de TEDxUCB consiste de un grupo de voluntarios apasionados de una variedad de disciplinas que se dedican a la misión de TED de dar voz a ideas que vale la pena difundir.
+						
+						Haga clic en las imágenes para saber más sobre cada miembro del equipo.
+				</p>
+			</li>
 			{% assign equipo_ordenado = site.equipo | sort:"order" %}
 			{% for miembro in equipo_ordenado %}
 			<li class="list-item" data-groups="all {{ post.category }}">
 				<figure>
-					<img src="{{site.baseurl}}assets/images/equipo/{{miembro.foto_perfil}}" alt="p1">
+					<img src="{{site.baseurl}}/assets/images/equipo/{{miembro.foto_perfil}}" alt="p1">
 					<figcaption>
 						<a href="{{site.baseurl}}{{project.url}}"></a>
 						<div class="caption-inner">
