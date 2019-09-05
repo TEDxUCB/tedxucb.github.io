@@ -32,3 +32,8 @@ facebook_username: "username"
 googleplus_username: "+username"
 pinterest_username: "username"
 linkedin_username: "username"
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name
