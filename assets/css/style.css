@@ -569,6 +569,10 @@ textarea.form-control {
 	text-align: left;
 }
 
+.intro div {
+	padding: 0;
+}
+
 .hello,
 .who-creates {
 	font-size: 16px;
@@ -1700,7 +1704,7 @@ figure {
 @media (max-width: 480px) {
 
 	h1 {
-		font-size: 34px;
+		font-size: 28px;
 		letter-spacing: 3px;
 	}
 
