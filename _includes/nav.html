@@ -20,12 +20,20 @@
 	
 				<div class="collapse navbar-collapse" id="custom-collapse">
 					<ul class="nav navbar-nav navbar-right">
+						{% if page.url == "/index.html" %}
+
+						{% assign class = "" %}
+
+						{% if page.url contains cat %}
+						{% assign class = "active" %} 
+					   	{% endif %}
+
 						<li>{{ page.url }}</li>
 						<li><a href="#home">Inicio</a></li>
-						<li><a href="/nosotros">Nosotros</a></li>
-						<li><a href="/speakers">Speakers</a></li>
-						<li><a href="/sponsors">Sponsors</a></li>
-						<li><a href="/faq">FAQ</a></li>
+						<li class="{% if page.url == '/nosotros.html' %}active{% endif %}"><a href="/nosotros">Nosotros</a></li>
+						<li class="{% if page.url == '/speakers.html' %}active{% endif %}"><a href="/speakers">Speakers</a></li>
+						<li class="{% if page.url == '/sponsors.html' %}active{% endif %}"><a href="/sponsors">Sponsors</a></li>
+						<li class="{% if page.url == '/faq.html' %}active{% endif %}"><a href="/faq">FAQ</a></li>
 					</ul>
 				</div>
 	
