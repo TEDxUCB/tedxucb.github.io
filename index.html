@@ -51,7 +51,8 @@ layout: default
 			<h1>Creando oportunidades</h1>
 			<a class="text-red"
 				href="https://www.google.com/maps/place/Universidad+Cat%C3%B3lica+Boliviana/@-16.5228045,-68.1142162,17z/data=!3m1!4b1!4m5!3m4!1s0x915f20ee187a3103:0x2f2bb2b7df32a24d!8m2!3d-16.5228097!4d-68.1120275">
-				<i class="fas fa-location"></i><div class="who-creates">Paraninfo de la Universidad Catolica Boliviana "San Pablo"</div>
+				<div class="who-creates"><i class="fa fa-map-marker" aria-hidden="true"></i>Paraninfo de la Universidad
+					Catolica Boliviana "San Pablo"</div>
 			</a>
 		</div>
 		<div class="col-xs-12 col-md-6">
@@ -116,48 +117,28 @@ layout: default
 
 	</div><!-- .contaier -->
 
-	<ul class="list-items-container">
+	<div class="container">
+		<ul class="list-items-container">
 
-		<li class="list-item" data-groups="all slideshow">
-			<figure>
-				<img src="{{site.baseurl}}assets/images/p1-1.jpg" alt="p1">
-				<figcaption>
-					<a href="{{site.baseurl}}assets/images/p1-1.jpg" class="simple-ajax-popup"></a>
-					<div class="caption-inner">
-						<h3 class="portfolio-item-title">Some work one</h3>
-						<div class="portfolio-item-desc">Slideshow</div>
-					</div>
-				</figcaption>
-			</figure>
-		</li>
+			{% assign sorted_speakers = site.speakers | sort:"order" %}
+			{% for speaker in sorted_speakers %}
+			<li class="list-item">
+				<figure>
+					<img src="{{site.baseurl}}/assets/images/equipo/{{speaker.foto_perfil}}" alt="p1">
+					<figcaption>
+						<a href="{{site.baseurl}}{{project.url}}"></a>
+						<div class="caption-inner">
+							<h3 class="portfolio-item-title">{{speaker.nombre}}</h3>
+							<div class="portfolio-item-desc">{{speaker.cargo}}</div>
+						</div>
+					</figcaption>
+				</figure>
+			</li>
 
-		<li class="list-item" data-groups="all video">
-			<figure>
-				<img src="{{site.baseurl}}assets/images/p2-2.jpg" alt="p2">
-				<figcaption>
-					<a href="{{site.baseurl}}assets/images/p2-2.jpg" class="simple-ajax-popup"></a>
-					<div class="caption-inner">
-						<h3 class="portfolio-item-title">Some work one</h3>
-						<div class="portfolio-item-desc">Video</div>
-					</div>
-				</figcaption>
-			</figure>
-		</li>
+			{% endfor %}
 
-		<li class="list-item" data-groups="all image">
-			<figure>
-				<img src="{{site.baseurl}}assets/images/p3-3.jpg" alt="p3">
-				<figcaption>
-					<a href="{{site.baseurl}}assets/images/p3-3.jpg" class="simple-ajax-popup"></a>
-					<div class="caption-inner">
-						<h3 class="portfolio-item-title">Some work one</h3>
-						<div class="portfolio-item-desc">Image</div>
-					</div>
-				</figcaption>
-			</figure>
-		</li>
-
-	</ul><!-- .projects-container -->
+		</ul><!-- .projects-container -->
+	</div>
 
 </section>
 

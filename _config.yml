@@ -37,3 +37,6 @@ collections:
   equipo:
     output: true
     permalink: /equipo/:name
+  speakers:
+    output: true
+    permalink: /speakers/:name
