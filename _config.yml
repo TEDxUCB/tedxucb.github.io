@@ -34,6 +34,6 @@ pinterest_username: "username"
 linkedin_username: "username"
 
 collections:
-  projects:
+  equipo:
     output: true
-    permalink: /projects/:name
+    permalink: /equipo/:name
