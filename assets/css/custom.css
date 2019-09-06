@@ -42,5 +42,5 @@ button.navbar-toggle {
     background: rgba(0, 0, 0, 0.64);
 }
 #home {
-    background: url(../images/banner.png);
+    background-image: url(../images/banner.png);
 }
