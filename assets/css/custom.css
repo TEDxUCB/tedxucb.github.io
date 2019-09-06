@@ -37,3 +37,10 @@ button.navbar-toggle {
     list-style-type: none;
     padding-left: 0;
 }
+
+.intro.container {
+    background: rgba(0, 0, 0, 0.64);
+}
+#home {
+    background: url(../images/banner.png);
+}
