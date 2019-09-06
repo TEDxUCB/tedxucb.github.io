@@ -27,3 +27,10 @@ button.navbar-toggle {
     margin-top: 13px;
     margin-bottom: 13px;
 }
+.footer-container {
+    text-align: left;
+}
+
+.footer-container ul {
+    list-style-type: none;
+}
