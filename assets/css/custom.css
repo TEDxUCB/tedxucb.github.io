@@ -33,4 +33,5 @@ button.navbar-toggle {
 
 .footer-container ul {
     list-style-type: none;
+    padding-left: 0;
 }
