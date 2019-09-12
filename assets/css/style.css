@@ -577,6 +577,8 @@ textarea.form-control {
 	text-transform: none;
 	margin: 15px 0;
 	font-weight: 200;
+	text-decoration: underline;
+    color: white;
 }
 
 /*Mouse animate icon*/
@@ -1402,7 +1404,7 @@ figure {
 	text-align: center;
 	padding: 40px 0;
 	color: #FFF;
-	background: #333
+	background-color: #1a1a1a;
 }
 
 .copyright {
