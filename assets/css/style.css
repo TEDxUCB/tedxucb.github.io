@@ -95,10 +95,13 @@ a,
 
 h1, h2, h3, h4, h5, h6 {
 	font: 700 40px/1.2 'Poppins', sans-serif;
-	text-transform: uppercase;
 	letter-spacing: 5px;
 	margin: 5px 0 5px;
 	color: #5b5963;
+}
+
+h1, h2 {
+	text-transform: uppercase;
 }
 
 h2 {
@@ -107,7 +110,7 @@ h2 {
 }
 
 h3 {
-	font-size: 13px;
+	font-size: 20px;
 	letter-spacing: 1px;
 	margin: 0 0 5px;
 }
@@ -577,7 +580,6 @@ textarea.form-control {
 	text-transform: none;
 	margin: 15px 0;
 	font-weight: 200;
-	text-decoration: underline;
     color: white;
 }
 
