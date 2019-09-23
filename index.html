@@ -123,22 +123,7 @@ layout: default
 	<div class="container">
 		<ul class="list-items-container">
 
-			{% assign sorted_speakers = site.speakers | sort:"order" %}
-			{% for speaker in sorted_speakers %}
-			<li class="list-item">
-				<figure>
-					<img src="{{site.baseurl}}/assets/images/equipo/{{speaker.foto_perfil}}" alt="p1">
-					<figcaption>
-						<a href="{{site.baseurl}}{{project.url}}"></a>
-						<div class="caption-inner">
-							<h3 class="portfolio-item-title">{{speaker.nombre}}</h3>
-							<div class="portfolio-item-desc">{{speaker.cargo}}</div>
-						</div>
-					</figcaption>
-				</figure>
-			</li>
-
-			{% endfor %}
+			<!-- Add speaker list here. -->
 
 		</ul><!-- .projects-container -->
 	</div>
