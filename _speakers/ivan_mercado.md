@@ -1,10 +1,11 @@
 ---
 layout: project
-title: "Rosario Aguilar"
-nombre: "Rosario Aguilar"
-cargo: "Moda"
-foto_perfil: aguilar.png
+title: "Ivan Mercado"
+nombre: "Ivan Mercado"
+cargo: "Educación"
+foto_perfil: mercado.png
 order: 1
 ---
 
-¨Charito¨ se encarga de revalorizar la identidad y vestimenta de la mujer de pollera, así como resalta su imagen como símbolo e ícono cultural de la ciudad de La Paz hacia el mundo. Con tantos años inmersa en lo que es la cultura viva y tangible de la Chola Paceña, Rosario Aguilar ha diseñado vestimenta exclusiva a solicitud de las señoras y señoritas de pollera, diseños tradicionales manteniendo la originalidad de los detalles de la Chola de Antaño.
+Docente en varias Universidades de Bolivia, tanto de pregrado como postgrado, tutor y tribunal de Tesis con 18 años de experiencia en el ámbito académico.
+Es una persona bastante apasionada, experto en marketing digital, negocios digitales y educación a distancia e-learning/m-learning, esto lo llevó a ejercer funciones como consultor de empresas de base tecnológica y es fundador del centro de capacitación virtual AULA E-BUSINESS.

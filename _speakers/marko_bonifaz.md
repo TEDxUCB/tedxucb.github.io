@@ -1,12 +1,12 @@
 ---
 layout: project
-title: "Andres Quiroz"
-nombre: "Andres Quiroz"
-cargo: "Tecnología"
-foto_perfil: quiroz.png
+title: "Marko Bonifaz"
+nombre: "Marko Bonifaz"
+cargo: "Gastronomía"
+foto_perfil: bonifaz.png
 order: 1
 ---
 
-Gracias a todas sus experiencias y ver de primera mano la realidad de los menos afortunados fue que nació uno de sus emprendimientos: TEAL, que busca apoyar a personas de escasos recursos, brindando material de robótica a bajos costos, cursos, asesorías y por sobre todo una semilla de esperanza que se encuentra en la robótica humanitaria.
+Hoy se encuentra respaldando los orígenes de productos bolivianos de alta calidad para abrirles mercados internacionales, revalorizando y trabajando la nueva gastronomía en nuestro país.
 
-Representará a Bolivia en la competencia Sample Return Robot Challenge en la NASA en 2020.
+Su restaurante de tapas utiliza ingredientes orgánicos de Bolivia como ser: la quinua real orgánica de las costas del Salar de Uyuni, ajís orgánicos de San Julián Padilla, papas locales y charques, todos estos incorporados a una estilo de cocina mediterráneo asiático.

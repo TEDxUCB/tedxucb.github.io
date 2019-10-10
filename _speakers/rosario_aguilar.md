@@ -1,12 +1,10 @@
 ---
 layout: project
-title: "Andres Quiroz"
-nombre: "Andres Quiroz"
-cargo: "Tecnología"
-foto_perfil: quiroz.png
+title: "Rosario Aguilar"
+nombre: "Rosario Aguilar"
+cargo: "Moda"
+foto_perfil: aguilar.png
 order: 1
 ---
 
-Gracias a todas sus experiencias y ver de primera mano la realidad de los menos afortunados fue que nació uno de sus emprendimientos: TEAL, que busca apoyar a personas de escasos recursos, brindando material de robótica a bajos costos, cursos, asesorías y por sobre todo una semilla de esperanza que se encuentra en la robótica humanitaria.
-
-Representará a Bolivia en la competencia Sample Return Robot Challenge en la NASA en 2020.
+¨Charito¨ se encarga de revalorizar la identidad y vestimenta de la mujer de pollera, así como resalta su imagen como símbolo e ícono cultural de la ciudad de La Paz hacia el mundo. Con tantos años inmersa en lo que es la cultura viva y tangible de la Chola Paceña, Rosario Aguilar ha diseñado vestimenta exclusiva a solicitud de las señoras y señoritas de pollera, diseños tradicionales manteniendo la originalidad de los detalles de la Chola de Antaño.
