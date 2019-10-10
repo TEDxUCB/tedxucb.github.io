@@ -9,8 +9,8 @@ layout: default
 <section class="blog-detail">
 	<div class="container">
 		<div class="blog-detail-banner wow fadeIn">
-			{% if page.banner_image %}
-				<img src="/assets/images/blog-banner.jpg" alt="{% if page.banner_image_alt %}{{ page.banner_image_alt }}{% else %}{{ page.title }}{% endif %}">
+			{% if page.foto_perfil %}
+				<img src="/assets/images/speakers/ {{ page.foto_perfil }}" alt="{% if page.banner_image_alt %}{{ page.banner_image_alt }}{% else %}{{ page.title }}{% endif %}">
 			{% endif %}
 		</div>
 		<div class="blog-detail-contents wow fadeInUp">
@@ -24,9 +24,6 @@ layout: default
 						<h4 class="media-heading">{{site.author_name}}</h4>
 						<p>{{ page.date | date: "%B %-d, %Y" }}</p>
 					</div>
-				</div>
-				<div class="blog-detail-category pull-right">
-					{{ page.category }}
 				</div>
 			</div>
 			<div class="blog-detail-content">
