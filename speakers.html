@@ -16,25 +16,26 @@ layout: default
 					<span>Speakers</span>
 				</h2>
 				<div class="module-line"></div>
-				{% assign sorted_speakers = site.speakers | sort:"order" %}
-				{% for speaker in sorted_speakers %}
-				<li class="list-item">
-					<figure>
-						<img src="{{site.baseurl}}/assets/images/speakers/{{speaker.foto_perfil}}" alt="p1">
-						<figcaption>
-							<a href="{{site.baseurl}}{{speaker.url}}"></a>
-							<div class="caption-inner">
-								<h3 class="portfolio-item-title">{{speaker.nombre}}</h3>
-								<div class="portfolio-item-desc">{{speaker.cargo}}</div>
-							</div>
-						</figcaption>
-					</figure>
-				</li>
-				{% endfor %}
-
 			</div>
 
 		</div><!-- .row -->
+		<ul>
+			{% assign sorted_speakers = site.speakers | sort:"order" %}
+			{% for speaker in sorted_speakers %}
+			<li class="list-item">
+				<figure>
+					<img src="{{site.baseurl}}/assets/images/speakers/{{speaker.foto_perfil}}" alt="p1">
+					<figcaption>
+						<a href="{{site.baseurl}}{{speaker.url}}"></a>
+						<div class="caption-inner">
+							<h3 class="portfolio-item-title">{{speaker.nombre}}</h3>
+							<div class="portfolio-item-desc">{{speaker.cargo}}</div>
+						</div>
+					</figcaption>
+				</figure>
+			</li>
+			{% endfor %}
+		</ul>
 	</div><!-- .contaier -->
 
 </section>
