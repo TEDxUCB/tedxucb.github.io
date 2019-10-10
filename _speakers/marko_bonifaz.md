@@ -4,7 +4,7 @@ title: "Marko Bonifaz"
 nombre: "Marko Bonifaz"
 cargo: "Gastronomía"
 foto_perfil: bonifaz.png
-order: 1
+order: 4
 ---
 
 Hoy se encuentra respaldando los orígenes de productos bolivianos de alta calidad para abrirles mercados internacionales, revalorizando y trabajando la nueva gastronomía en nuestro país.

@@ -4,7 +4,7 @@ title: "Ivan Mercado"
 nombre: "Ivan Mercado"
 cargo: "Educación"
 foto_perfil: mercado.png
-order: 1
+order: 8
 ---
 
 Docente en varias Universidades de Bolivia, tanto de pregrado como postgrado, tutor y tribunal de Tesis con 18 años de experiencia en el ámbito académico.

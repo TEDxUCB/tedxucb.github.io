@@ -4,7 +4,7 @@ title: "Carola Capra"
 nombre: "Carola Capra"
 cargo: "Emprendimiento "
 foto_perfil: capra.png
-order: 1
+order: 3
 ---
 
 Directora Ejecutiva del Grupo Nueva Economía. Fundadora de rednuevaempresa.com, app-credit.com y de los programas de capacitación virtual Gerente Pyme y Emprendedor Global.

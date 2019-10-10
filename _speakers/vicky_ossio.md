@@ -4,7 +4,7 @@ title: "Vicky Ossio"
 nombre: "Vicky Ossio"
 cargo: "Medio ambiente"
 foto_perfil: ossio.png
-order: 1
+order: 2
 ---
 
 Es co-fundadora, administradora y cuidadora de animales en el Centro de Custodia de Fauna Silvestre La Senda Verde. Junto con su esposo, Marcelo Levy, crearon este refugio en Los Yungas de La Paz, donde dan una segunda oportunidad de vida a animales silvestres víctimas del tráfico ilegal, de la pérdida de hábitat y de la crueldad humana.
