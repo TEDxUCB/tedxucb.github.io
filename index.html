@@ -124,7 +124,7 @@ layout: default
 		<ul class="list-items-container">
 			
 			{% assign sorted_speakers = site.speakers | sort:"order" %}
-			{% for speaker in sorted_speakers %}
+			{% for speaker in sorted_speakers limit:3%}
 			<li class="list-item">
 				<figure>
 					<img src="{{site.baseurl}}/assets/images/speakers/{{speaker.foto_perfil}}" alt="p1">
