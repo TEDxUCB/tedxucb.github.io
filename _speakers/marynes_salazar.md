@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: speaker
 title: "Marynés Salazar"
 nombre: "Marynés Salazar"
 cargo: "Psicología"

@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: speaker
 title: "Rosario Aguilar"
 nombre: "Rosario Aguilar"
 cargo: "Moda"

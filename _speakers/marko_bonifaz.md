@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: speaker
 title: "Marko Bonifaz"
 nombre: "Marko Bonifaz"
 cargo: "Gastronomía"

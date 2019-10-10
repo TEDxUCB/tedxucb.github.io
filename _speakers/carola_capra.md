@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: speaker
 title: "Carola Capra"
 nombre: "Carola Capra"
 cargo: "Emprendimiento "

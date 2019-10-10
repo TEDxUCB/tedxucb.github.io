@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: speaker
 title: "Vicky Ossio"
 nombre: "Vicky Ossio"
 cargo: "Medio ambiente"

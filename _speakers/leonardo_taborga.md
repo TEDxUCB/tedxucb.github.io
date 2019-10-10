@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: speaker
 title: "ALeonardo Taborga"
 nombre: "Leonardo Taborga"
 cargo: "Investigación"

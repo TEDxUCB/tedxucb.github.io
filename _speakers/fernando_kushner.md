@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: speaker
 title: "Fernando Kushner"
 nombre: "Fernando Kushner"
 cargo: "Impacto Social"

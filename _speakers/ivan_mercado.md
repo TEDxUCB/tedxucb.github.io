@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: speaker
 title: "Ivan Mercado"
 nombre: "Ivan Mercado"
 cargo: "Educación"

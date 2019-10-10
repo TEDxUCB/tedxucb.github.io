@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: speaker
 title: "Alejandra León"
 nombre: "Alejandra León"
 cargo: "Cultura"

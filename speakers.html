@@ -19,7 +19,7 @@ layout: default
 			</div>
 
 		</div><!-- .row -->
-		<ul class="list-items-container blog-wrapper"></ul>
+		<ul class="list-items-container blog-wrapper">
 			{% assign sorted_speakers = site.speakers | sort:"order" %}
 			{% for speaker in sorted_speakers %}
 			<li class="list-item">
